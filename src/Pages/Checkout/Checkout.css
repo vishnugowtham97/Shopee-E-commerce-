@@ -1,0 +1,141 @@
+.checkout .card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: none;
+}
+
+.checkout #headingTwo {
+  padding: 0;
+}
+
+.checkout .btn-light:focus {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+  box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
+}
+
+.checkout .form-control {
+  height: 50px;
+  border: 2px solid #eee;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.checkout .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #039be5;
+  outline: 0;
+  box-shadow: none;
+}
+
+.checkout .input {
+  position: relative;
+}
+
+.checkout .input i {
+  position: absolute;
+  top: 16px;
+  left: 11px;
+  color: #989898;
+}
+
+.checkout .input input {
+  text-indent: 25px;
+}
+
+.checkout .card-text {
+  font-size: 13px;
+  margin-left: 6px;
+  font-weight: normal;
+}
+
+.checkout .certificate-text {
+  font-size: 12px;
+}
+
+.checkout .billing {
+  font-size: 11px;
+}
+
+.checkout .super-price {
+  top: 0px;
+  font-size: 22px;
+}
+
+.checkout .super-month {
+  font-size: 11px;
+}
+
+.checkout .line {
+  color: #bfbdbd;
+}
+
+.checkout .free-button {
+  height: 52px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.checkout .payment-card-body {
+  flex: 1 1 auto;
+  padding: 24px 1rem !important;
+}
+
+.payment-heading {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.razorpay-container,
+.creditcard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expire-date {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.cvv {
+  margin-bottom: 30px;
+}
+
+.shipping-details {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.payment-btn {
+  margin-top: 3rem;
+}
+
+.checkout {
+  background-color: var(--lighter2);
+}
+
+.checkout-details label {
+  font-size: 18px;
+}
+
+.checkout-details input {
+  font-size: 14px;
+  height: 40px;
+}
+
+.checkout img {
+  width: 8rem;
+}
+
+.checkout .cart-2 {
+  background-color: white;
+}
+
+.checkout .card {
+  border-radius: 10px;
+}

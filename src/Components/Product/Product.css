@@ -1,0 +1,17 @@
+.product-wrapper .product-details {
+  background: var(--lighter2);
+}
+
+.product-wrapper img {
+  border-radius: 20px;
+}
+
+.product-wrapper input {
+  font-size: 14px;
+  height: 40px;
+}
+
+.product-wrapper select {
+  font-size: 14px;
+  height: 40px;
+}

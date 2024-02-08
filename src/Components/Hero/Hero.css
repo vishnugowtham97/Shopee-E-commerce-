@@ -1,0 +1,28 @@
+.hero {
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content {
+    justify-content: space-between;
+  }
+  .fast-order {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .fast-order {
+    margin-bottom: 10px;
+  }
+}
+
+.fast-order {
+  text-align: center;
+}

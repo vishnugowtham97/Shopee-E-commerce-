@@ -1,0 +1,19 @@
+.new-arrival {
+  padding: 2rem;
+}
+
+.arrival-card {
+  margin-bottom: 2rem;
+}
+
+.arrival-productcard {
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.view-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

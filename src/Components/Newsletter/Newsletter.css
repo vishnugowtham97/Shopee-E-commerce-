@@ -1,0 +1,14 @@
+.news-letter {
+  padding: 2rem;
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.context {
+  margin-bottom: 1rem;
+  color: red;
+}

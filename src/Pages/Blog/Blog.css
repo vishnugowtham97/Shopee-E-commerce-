@@ -1,0 +1,74 @@
+.blogs {
+  padding: 3rem;
+}
+
+.shop-details > .read-content {
+  color: white;
+}
+
+.shop-details > .content-para {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700 bold;
+}
+
+.bloghead-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-wrapper {
+  background: url(/src/Assets/Images/banner/b25.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-h1 {
+  margin-bottom: 0.75rem;
+}
+
+.blog-p {
+  margin-bottom: 1rem;
+}
+
+.blogcard-container {
+  padding: 3rem;
+}
+
+.blogcard-card {
+  margin-bottom: 20px;
+}
+
+.blogs .card img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+}
+
+.blogcard-image {
+  border-radius: 50px;
+}
+
+.blogcard-body {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.shop-details {
+  align-items: center;
+  text-align: center;
+}

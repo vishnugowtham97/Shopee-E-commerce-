@@ -1,0 +1,19 @@
+.more-product {
+  text-align: center;
+  padding: 24px;
+}
+
+.product-alignment {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.view-btnlink {
+  display: flex;
+  align-items: center;
+}
+
+.price-color {
+  color: red;
+}

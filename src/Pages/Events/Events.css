@@ -1,0 +1,144 @@
+/* LandingPage.css */
+
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.landing-page-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* EventCard.css */
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 20px;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  margin-bottom: 10px;
+}
+
+.event-date,
+.event-location {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.book-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+/* BookingForm.css */
+
+.booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.booking-form-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.submit-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
