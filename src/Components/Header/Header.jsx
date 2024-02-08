@@ -339,12 +339,12 @@ const Header = () => {
                   <div className="mb-2">
                     <NavLink
                       className={
-                        location.pathname === "/about" ? "active" : "not-active"
+                        location.pathname === "/event" ? "active" : "not-active"
                       }
-                      to="/about"
+                      to="/event"
                       onClick={toggleMenu}
                     >
-                      ABOUT
+                      EVENTS
                     </NavLink>
                   </div>
                 </div>
